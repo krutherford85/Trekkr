@@ -21,6 +21,7 @@ struct TrekkrApp: App {
                     Image(systemName: "airplane.circle.fill")
                     Text("Discover")
                 }
+                
                 NavigationView {
                      WorldView()
                 }
@@ -28,8 +29,17 @@ struct TrekkrApp: App {
                     Image(systemName: "star.circle.fill")
                     Text("Locations")
                 }
+                .environmentObject(locations)
+                
+                NavigationView {
+                    TipsView()
+                }
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Tips")
+                }
             }
-            .environmentObject(locations)
         }
     }
 }
+
