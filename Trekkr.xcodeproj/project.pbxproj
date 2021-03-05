@@ -16,6 +16,8 @@
 		5219DE0325F16EF20059ECE3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219DE0225F16EF20059ECE3 /* Location.swift */; };
 		5219DE0625F172BC0059ECE3 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219DE0525F172BC0059ECE3 /* Locations.swift */; };
 		5219DE0925F17F3D0059ECE3 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219DE0825F17F3D0059ECE3 /* WorldView.swift */; };
+		5219DE0C25F1C0F50059ECE3 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219DE0B25F1C0F50059ECE3 /* Tip.swift */; };
+		5219DE0F25F1C23E0059ECE3 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219DE0E25F1C23E0059ECE3 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5219DE0225F16EF20059ECE3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		5219DE0525F172BC0059ECE3 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		5219DE0825F17F3D0059ECE3 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		5219DE0B25F1C0F50059ECE3 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		5219DE0E25F1C23E0059ECE3 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5219DDEE25F169940059ECE3 /* ContentView.swift */,
 				5219DE0825F17F3D0059ECE3 /* WorldView.swift */,
 				5219DDF025F169950059ECE3 /* Assets.xcassets */,
+				5219DE0B25F1C0F50059ECE3 /* Tip.swift */,
+				5219DE0E25F1C23E0059ECE3 /* TipsView.swift */,
 				5219DDFC25F169B90059ECE3 /* locations.json */,
 				5219DE0525F172BC0059ECE3 /* Locations.swift */,
 				5219DE0225F16EF20059ECE3 /* Location.swift */,
@@ -156,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5219DDEF25F169940059ECE3 /* ContentView.swift in Sources */,
+				5219DE0C25F1C0F50059ECE3 /* Tip.swift in Sources */,
 				5219DE0325F16EF20059ECE3 /* Location.swift in Sources */,
 				5219DE0925F17F3D0059ECE3 /* WorldView.swift in Sources */,
+				5219DE0F25F1C23E0059ECE3 /* TipsView.swift in Sources */,
 				5219DE0625F172BC0059ECE3 /* Locations.swift in Sources */,
 				5219DDED25F169940059ECE3 /* TrekkrApp.swift in Sources */,
 			);
